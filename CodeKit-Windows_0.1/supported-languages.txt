@@ -1,0 +1,29 @@
+Supported Languages
+- Basic
+
+- C
+- C#
+- C++
+- CSS
+
+- GameMaker Language
+- Google Apps Script
+
+- HTML
+
+- Java
+- JavaScript
+- JSON
+
+- Lua
+- LOLCODE
+
+- Markdown
+
+- Python
+- PHP
+
+- Swift
+- SQL
+
+- XML

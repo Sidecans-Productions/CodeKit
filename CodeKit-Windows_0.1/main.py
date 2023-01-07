@@ -4,9 +4,9 @@ from tkinter import *
 
 from tkinter import filedialog
 def browseFiles():
-    filename = filedialog.askopenfilename(initialdir = "/", title = "Select a File", filetypes = (("Text files","*.txt*"),("All files","*.*")))
+    filename = filedialog.askopenfilename(initialdir = "/", title = "Select a File", filetypes = (("All Files", "*.*"), ("BASIC Files","*.bas"), ("C Files", "*.c *.h"), ("C# Files","*.cs *.csx"), ("C++ Files", "*.c++ *.cpp *.cc *.cxx"), ("CSS Files", "*.css*"), ("GameMaker Language Files", "*.gml*"), ("HTML Files", ""), ("JSON Files", "*.json*"), ("XML Files", "*.xml*")))
 
-    label_file_explorer.configure(text="File Succesfully Opened: "+filename)
+    label_file_explorer.configure(text="File Opened: "+filename)
       
       
                                                                                                   
